@@ -5,13 +5,21 @@ const Navbar = () => {
     <nav className="mt-5 mb-5">
       <ul className="flex list-none gap-4 font-bold">
         <li>
-          <Link href="/">Home</Link>
+          <Link className="hover:underline" href="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link className="hover:underline" href="/about">
+            About
+          </Link>
         </li>
         <li>
-          <Link target="_blank" href="/assets/altan_aldeniz_resume.pdf">
+          <Link
+            className="hover:underline"
+            target="_blank"
+            href="/assets/altan_aldeniz_resume.pdf"
+          >
             Resume
           </Link>
         </li>
