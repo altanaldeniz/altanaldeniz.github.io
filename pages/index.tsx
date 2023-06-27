@@ -7,8 +7,8 @@ export default function Home() {
         </div>
         <div className="ml-6">
           <p>
-            Hi, I'm<span className="font-bold"> Altan.</span> I'm currently
-            studying Computer Engineering and working to become proficient in
+            Hi, I'm<span className="font-bold"> Altan.</span> I recently graduated
+            from Computer Engineering and working to become proficient in
             all aspects of web development, with the goal of becoming a Full
             Stack Developer.
           </p>
