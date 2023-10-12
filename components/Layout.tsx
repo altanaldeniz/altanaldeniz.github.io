@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import type { ReactElement } from 'react';
 import Footer from './Footer';
-import Navbar from './Navbar';
 
 const Layout = ({ children }: { children: ReactElement }) => {
   return (
@@ -14,7 +13,6 @@ const Layout = ({ children }: { children: ReactElement }) => {
       </Head>
       <div className="min-h-[70vh] flex flex-col mt-10">
         <h1 className="text-3xl font-semibold block">Altan Aldeniz</h1>
-        <Navbar />
         {children}
         <Footer />
       </div>
