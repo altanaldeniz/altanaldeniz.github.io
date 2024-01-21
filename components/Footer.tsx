@@ -8,7 +8,7 @@ const Footer = () => {
       >
         Altan Aldeniz
       </a>{' '}
-      | 2023
+      | 2024
     </footer>
   );
 };

@@ -7,8 +7,8 @@ export default function Home() {
         </div>
         <div className="ml-6">
           <p>
-            Hi, I'm<span className="font-bold"> Altan.</span> I have recently completed my degree in Computer Engineering and am actively seeking employment. 
-            I am experienced in Frontend Development, I also have solid skills in Backend Development as well, so I am open for Full Stack positions.
+            Hi, I'm<span className="font-bold"> Altan.</span> I have recently completed my degree in Computer Engineering and seeking for job. 
+            I am experienced in Frontend, but also have solid skills in Backend, so I am open for Full Stack positions.
           </p>
           <p>You can easily reach me via:</p>
           <ul className="flex text-zinc-600">
