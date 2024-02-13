@@ -1,16 +1,16 @@
 export default function Home() {
   return (
     <>
-      <div className="flex mt-5 mb-5 text-2xl leading-10">
+      <div className="flex mt-10 mb-5 text-2xl leading-10">
         <div>
           <img src="/photo.jpg" className="h-full object-contain"></img>
         </div>
-        <div className="ml-6">
-          <p>
-            Hi, I'm<span className="font-bold"> Altan.</span> I have recently completed my degree in Computer Engineering and seeking for job. 
+        <div className="ml-6 max-w-xl">
+          <p className="text-justify">
+            Hi,<span className="font-bold"> Altan</span> here. I recently completed my degree in Computer Engineering and available for job offers. 
             I am experienced in Frontend, but also have solid skills in Backend, so I am open for Full Stack positions.
           </p>
-          <p>You can easily reach me via:</p>
+          <p className="my-2">You can easily reach me via:</p>
           <ul className="flex text-zinc-600">
             <li className="border-4 border-zinc-500 p-2 flex justify-center items-center">
               <svg
@@ -65,7 +65,7 @@ export default function Home() {
               </a>
             </li>
           </ul>
-          Or mail me at{' '}
+          <span>Or mail me at{' '}</span>
           <a
             href="mailto:altanaldeniz@gmail.com"
             className="font-bold hover:underline"
