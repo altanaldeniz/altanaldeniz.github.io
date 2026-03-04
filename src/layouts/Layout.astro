@@ -1,0 +1,35 @@
+---
+import '../styles/global.css';
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects/">Projects</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://x.com/altanaldeniz" title="Twitter" aria-label="X">x.com</a>
+        <a href="https://github.com/altanaldeniz" title="GitHub" aria-label="GitHub">github</a>
+        <a href="https://linkedin.com/in/altanaldeniz" title="LinkedIn" aria-label="LinkedIn">linkedin</a>
+        <a href="mailto:altanaldeniz@gmail.com" title="Email" aria-label="Email">email</a>
+      </div>
+    </footer>
+  </body>
+</html>
